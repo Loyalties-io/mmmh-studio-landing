@@ -24,18 +24,17 @@
 
 .headline-container {
   position: absolute;
-  top: 20%;
-  left: 50%;
+  top: 26%;
+  left: 54%;
   transform: translateX(-50%);
   color: white;
   text-align: center;
-  width: 100%;
+  width: 90%;
 }
 
 .headline {
   font-family: Futura;
-  font-size: 57.713px;
-  font-style: normal;
+  font-size: 50px;
   font-weight: 800;
   line-height: normal;
   text-transform: uppercase;
