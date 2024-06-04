@@ -1,19 +1,88 @@
-.App {
-  background-color: #000;
-  min-height: 100vh;
+.background-container {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 80vmin;
+.logo-container {
+  position: absolute;
+  top: 2%;
+  left: -4%;
+  width: 60%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.headline-container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.headline {
+  font-family: Futura;
+  font-size: 57.713px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  color: red;
+}
+
+.secondary-headline-container {
+  position: absolute;
+  bottom: 18%;
+  left: 55%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.secondary-headline {
+  width: 65%;
+  height: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+}
+
+.footer-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    width: 90%;
+    top: 5%;
+    left: 5%; /* Adjust for smaller screens */
+  }
+
+  .headline-container {
+    top: 30%;
+  }
+
+  .secondary-headline-container {
+    bottom: 15%;
+  }
+}

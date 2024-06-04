@@ -1,24 +1,31 @@
-import logo from "./logo.svg";
+import { ReactComponent as LogoSVG } from "./logo.svg";
+import secondaryHeadline from "./loyalties.png";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+    <div className="background-container">
+      <div className="logo-container">
+        <LogoSVG className="logo-svg" />
+      </div>
+      <div className="headline-container">
+        <h1 className="headline">
+          Bullshit Satz mit, something like Building the bridge between...
+        </h1>
+      </div>
+      <div className="secondary-headline-container">
+        <img
+          src={secondaryHeadline}
+          alt="Secondary Headline"
+          className="secondary-headline"
+        />
+      </div>
+      <footer className="footer">
+        <div className="footer-content">
+          <p>Contact details here</p>
+          <p>Some links here</p>
+        </div>
+      </footer>
     </div>
   );
 }
