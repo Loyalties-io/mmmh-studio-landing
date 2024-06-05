@@ -20,8 +20,8 @@ function App() {
       </div>
       <footer className="footer">
         <div className="footer-content">
-          <p>Contact details here</p>
-          <p>Some links here</p>
+          <p>mmmh.studio</p>
+          <p>xla@mmmh.studio</p>
         </div>
       </footer>
     </div>
