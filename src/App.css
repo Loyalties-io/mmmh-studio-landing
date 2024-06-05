@@ -8,50 +8,35 @@
 
 .logo-container {
   position: absolute;
-  top: 2%;
-  left: -4%;
-  width: 60%;
-  height: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  top: 0;
+  left: -7%;
 }
 
 .logo-svg {
-  width: 100%;
+  width: 70%;
   height: 100%;
 }
 
 .headline-container {
   position: absolute;
-  top: 26%;
-  left: 54%;
+  top: 10%;
+  left: 50%;
   transform: translateX(-50%);
   color: white;
   text-align: center;
   width: 90%;
 }
 
-.headline {
-  font-family: Futura;
-  font-size: 50px;
-  font-weight: 800;
-  line-height: normal;
-  text-transform: uppercase;
-  color: red;
-}
-
 .secondary-headline-container {
   position: absolute;
-  bottom: 18%;
-  left: 55%;
+  bottom: 25%;
+  left: 50%;
   transform: translateX(-50%);
-  width: 100%;
-  text-align: center;
+  width: 80%;
 }
 
-.secondary-headline {
-  width: 65%;
+.secondary-headline-svg {
+  width: 100%;
   height: auto;
 }
 
@@ -70,11 +55,12 @@
   align-items: center;
 }
 
-@media (max-width: 768px) {
+/* Breakpoints for larger screens */
+@media (min-width: 768px) {
   .logo-container {
-    width: 90%;
+    width: 50%;
     top: 5%;
-    left: 5%; /* Adjust for smaller screens */
+    left: 5%;
   }
 
   .headline-container {
@@ -83,5 +69,69 @@
 
   .secondary-headline-container {
     bottom: 15%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo-container {
+    width: 40%;
+    top: 5%;
+    left: 5%;
+  }
+
+  .headline-container {
+    top: 25%;
+  }
+
+  .secondary-headline-container {
+    bottom: 10%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .logo-container {
+    width: 35%;
+    top: 5%;
+    left: 5%;
+  }
+
+  .headline-container {
+    top: 20%;
+  }
+
+  .secondary-headline-container {
+    bottom: 5%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .logo-container {
+    width: 30%;
+    top: 5%;
+    left: 5%;
+  }
+
+  .headline-container {
+    top: 15%;
+  }
+
+  .secondary-headline-container {
+    bottom: 5%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .logo-container {
+    width: 25%;
+    top: 5%;
+    left: 5%;
+  }
+
+  .headline-container {
+    top: 10%;
+  }
+
+  .secondary-headline-container {
+    bottom: 5%;
   }
 }

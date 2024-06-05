@@ -1,5 +1,5 @@
-import { ReactComponent as LogoSVG } from "./logo.svg";
-import secondaryHeadline from "./loyalties.png";
+import { ReactComponent as LogoSVG } from "./logo_big.svg";
+import { ReactComponent as HeadingSVG } from "./loyalties_distorted.svg";
 import "./App.css";
 
 function App() {
@@ -14,11 +14,9 @@ function App() {
         </h1>
       </div>
       <div className="secondary-headline-container">
-        <img
-          src={secondaryHeadline}
-          alt="Secondary Headline"
-          className="secondary-headline"
-        />
+        <a href="https://loyalties.io">
+          <HeadingSVG className="secondary-headline-svg" />
+        </a>
       </div>
       <footer className="footer">
         <div className="footer-content">
