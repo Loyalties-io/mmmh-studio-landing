@@ -55,20 +55,24 @@
   align-items: center;
 }
 
-/* Breakpoints for larger screens */
 @media (min-width: 768px) {
   .logo-container {
-    width: 50%;
-    top: 5%;
-    left: 5%;
+    top: 2%;
+    left: -8%;
   }
 
   .headline-container {
-    top: 30%;
+    top: 25%;
+    width: 70%;
   }
 
   .secondary-headline-container {
-    bottom: 15%;
+    bottom: 25%;
+    left: 70%;
+  }
+
+  .secondary-headline-svg {
+    width: 70%;
   }
 }
 
