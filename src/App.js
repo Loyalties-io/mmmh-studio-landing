@@ -10,7 +10,7 @@ function App() {
       </div>
       <div className="headline-container">
         <h1 className="headline">
-          Bullshit Satz mit, something like Building the bridge between...
+          Enhance physical interactions with digial tools.
         </h1>
       </div>
       <div className="secondary-headline-container">
