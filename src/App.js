@@ -10,7 +10,7 @@ function App() {
       </div>
       <div className="headline-container">
         <h1 className="headline">
-          Enhance physical interactions with digial tools.
+          Enhance physical interactions with digital tools.
         </h1>
       </div>
       <div className="secondary-headline-container">
